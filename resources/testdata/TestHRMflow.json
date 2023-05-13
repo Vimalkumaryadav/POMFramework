@@ -1,0 +1,12 @@
+{
+	"Test HRM flow": [
+	{	
+		"Test_Scenario":"TC_01-Login into application",
+		"Module":"Slice-1",
+		"device":"local system",
+		"Author":"Vimal",
+		"username":"Admin",
+		"password":"admin123"
+	}
+	] 
+}

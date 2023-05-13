@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-05T13:54:48Z" name="Default suite" finished-at="2023-05-05T13:55:19Z" duration-ms="31669">
+    <groups>
+    </groups>
+    <test started-at="2023-05-05T13:54:48Z" name="Default test" finished-at="2023-05-05T13:55:19Z" duration-ms="31669">
+      <class name="testcases.orangeHrm">
+        <test-method is-config="true" signature="initReport()[pri:0, instance:testcases.orangeHrm@4386f16]" started-at="2023-05-05T19:24:48Z" name="initReport" finished-at="2023-05-05T19:24:49Z" duration-ms="1000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method is-config="true" signature="initialSetUp()[pri:0, instance:testcases.orangeHrm@4386f16]" started-at="2023-05-05T19:24:49Z" name="initialSetUp" finished-at="2023-05-05T19:24:53Z" depends-on-methods="com.BestClass.office.BaseTest.initReport" duration-ms="4851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.orangeHrm@4386f16]" started-at="2023-05-05T19:24:53Z" name="setUp" finished-at="2023-05-05T19:24:56Z" duration-ms="2046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="OrangeHRM(java.util.Map)[pri:0, instance:testcases.orangeHrm@4386f16]" started-at="2023-05-05T19:24:56Z" name="OrangeHRM" data-provider="Basic_Login_Flow" finished-at="2023-05-05T19:25:19Z" duration-ms="23698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"Test_Scenario":"TC_01-Login into application","password":"admin123","Author":"Vimal","Module":"Slice-1","device":"local system","username":"Admin"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHRM -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:testcases.orangeHrm@4386f16]" started-at="2023-05-05T19:25:19Z" name="after" finished-at="2023-05-05T19:25:19Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHRM status=SUCCESS method=orangeHrm.OrangeHRM(java.util.Map)[pri:0, instance:testcases.orangeHrm@4386f16] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.orangeHrm@4386f16]" started-at="2023-05-05T19:25:19Z" name="tearDown" finished-at="2023-05-05T19:25:19Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.orangeHrm -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
